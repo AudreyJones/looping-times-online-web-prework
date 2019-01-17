@@ -1,9 +1,10 @@
 
 
+num_of_hotdogs_eaten = 0
 
-counter = 0
-while counter < 20
-  puts "The current number is less than 20!"
-  puts "We are at #{counter}."
-  counter += 1
+while num_of_hotdogs_eaten < 7
+  num_of_hotdogs_eaten += 1
+  puts "You have now eaten #{num_of_hotdogs_eaten} hot dogs!"
 end
+
+puts "You at a total of #{num_of_hotdogs_eaten} hot dogs!"
